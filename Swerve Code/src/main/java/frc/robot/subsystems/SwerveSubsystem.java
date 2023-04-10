@@ -188,7 +188,7 @@ public class SwerveSubsystem extends SubsystemBase {
   }
 
   public static double getMaxVelocityMetersPerSecond() {
-      return NeoSwerverModule.getMaxVelocityMetersPerSecond(ModuleConfiguration.MK4I_L2);
+      return NeoSwerverModule.getMaxVelocityMetersPerSecond(ModuleConfiguration.MK4I_L1);
   }
 
   /**
